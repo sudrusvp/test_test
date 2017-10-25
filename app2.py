@@ -99,15 +99,7 @@ def post():
 	except:
 		print('No intent found for current query')
 	
-	if flag1:
-		script =<html><% for i in range(10): %>
-					<% if i % 2: %>
-						<td class="odd"><%= i %></td>
-						<% end %>
-					<% else: %>
-						<td class="even"><%= i %></td>
-						<% end %>
-					<% end %></html>
+
 	if flag1:
 		if len(example_list) == 1:
 			suggestion1 = """<html><hr><body>
