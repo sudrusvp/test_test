@@ -1,0 +1,61 @@
+department actions,cirats_action
+How can I delete my department? Who can delete department?,cirats_action
+Where can I add new department? Who can add new department?,cirats_action
+where can I edit new department? Who can edit new department?,cirats_action
+account actions,cirats_action
+how can I delete my account? Who can delete account?,cirats_action
+how can I add my account? Who can add account?,cirats_action
+how can I edit my account? Who can edit account?,cirats_action
+device type,cirats_action
+account specific device type,cirats_action
+who can modify device type? How can device type be enabled? How can deice type be disabled?,cirats_action
+Who can define Isec severity? How can I  define Isec severity?,cirats_action
+What is customer notification? Who can set customer notification? Can Internal accounts set customer notification?,cirats_action
+platform,cirats_action
+Who can add platform and system type? Where can I add platform and system type?,cirats_action
+Who deletes platform and system type? Where can I delete platform and system type?,cirats_action
+Noncompliance issue actions,cirats_action
+Who can create non compliance issue? How can I create non compliance issue?,cirats_action
+Who can extend Non compliance issue using date extension process? How can I extend an Non compliance issue?,cirats_action
+Who can extend non compliance issue using risk evaluation process? Ho can extend non compliance issue  using risk evaluation process,cirats_action
+How can I add an action plan?,cirats_action
+Why cant I add an action plan?,cirats_action
+Who can add action Plan?,cirats_action
+Patch advisory actions,cirats_action
+who opens patch advisory?,cirats_action
+when can I mark a patch advisory as not applicable? How will I know the patch advisory is not applicable?,cirats_action
+Who marks a patch advisory as applicable? How do I know a patch advisory is applicable?,cirats_action
+How can I extend PA using date extension process? Who can extend PA using date extension process,cirats_action
+extending PA using risk evaluation process,cirats_action
+what is customer notification,cirats_action
+Who can transfer records? How can I transfer records?,cirats_action
+How can I reopen my closed records? Who can reopen records?,cirats_action
+How can I close a record? Who can close the record?,cirats_action
+How can I validate my department? Who can validate department?,cirats_action
+"I wrongly assigned NCI, what can I do",cirats_action
+How can I transfer records from one department to another? Who can transfer records?,cirats_action
+Why do receive error message when department is updated?,cirats_action
+How can I add technical contacts to my departments?Who can add technical contacts?,cirats_action
+How can I change the originator?Who can change the originator?,cirats_action
+How can I edit my account document? Who can edit account document?,cirats_action
+How can I add new account into CIRATS? Who can add new account?,cirats_action
+add an account in cirats,cirats_action
+add technical contact,cirats_action
+Why dont I receive PA notifications?,cirats_general
+Where can I find supported softwares?,cirats_general
+Why cant I see the records? Why cant I see my department? Why cant I see my account?,cirats_general
+What is CIRATS?,cirats_general
+How can I access to the CIRATS America and Europe? Where can I find a link to CIRATS AG?,cirats_general
+How can I access to the CIRATS AP & Japan? Where can I find a link to CIRATS AP?,cirats_general
+What is the link for CARD DB?,cirats_general
+What is the link for CIRATS_wiki?,cirats_general
+How can download report from cognos,cirats_general
+Who are Key Contacts and IOT focals?,cirats_general
+What access granted for CIRATS Groups?,cirats_general
+Where can I find the CIRATS major processes?,cirats_general
+Who can request new requirements or development queries?,cirats_general
+"Where can I find the CIRATS parameter settings, platform list, notification settings?",cirats_general
+What CIRATS is used for? What types of non-compliance issues supported?,cirats_general
+What is control issue? What's the difference between control and security compliance issue?,cirats_general
+What is security compliance issue? What's the difference between control and security compliance issue?,cirats_general
+What is issue management process?,cirats_general

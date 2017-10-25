@@ -1,0 +1,35 @@
+What is the process to access the GEM Database,gem_access
+What are the types of access level available in GEM,gem_access
+What is the role of Read access,gem_access
+What is the role of Author access,gem_access
+What is the role of Read all access,gem_access
+How to create/add/delete account in GEM Records,gem_access
+How to Archive a user who no longer needs access to GEM,gem_access
+types of access in gem,gem_access
+What is the Task ID/Contact for GEM,gem_contact
+What is the Contact for GEM,gem_contact
+What is the Task ID for GEM,gem_contact
+Who are the focals for GEM/ARCH region wise,gem_contact
+Who are the focals for GEM  region wise,gem_contact
+"What to do when you see the error ""OOPS! I think you are lost... If you aren't lost and need to see something, Please contact Global GEM administrator""",gem_general
+"error message ""OOPS! I think you are lost... If you aren't lost and need to see something, Please contact Global GEM administrator""",gem_general
+"OOPS! I think you are lost... If you aren't lost and need to see something, Please contact Global GEM administrator",gem_general
+"How to resolve the issue - ""Unable to access GEM Database due to network error""",gem_general
+What is the process for Ownership change of respective record?,gem_general
+Any queries related to DOU record updation(Cross Border Checklist),gem_general
+Issues related to Wiki updation,gem_general
+"How to solve ""Server locked out issue"" ?",gem_general
+Who will be generating/Creating the Rated Services Report,gem_general
+"resolve the issue - ""Unable to access GEM Database due to network error""",gem_general
+Unable to access GEM Database due to network error,gem_general
+How to request for Dummy CDIR number,gem_general
+"How to solve ""Server locked out issue""",gem_general
+How to correct error caused by incorrect date format,gem_general
+What is the process for changing/adding/removing delegate of respective record,gem_general
+What is the process for changing delegate of respective record,gem_general
+What is the process for removing delegate of respective record,gem_general
+What is the process for adding delegate of respective record,gem_general
+Server locked out issue,gem_general
+Any queries related to CBC record updation(Cross Border Checklist),gem_general
+unable to access gem database,gem_general
+what is gem,gem_general

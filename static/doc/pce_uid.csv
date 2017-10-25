@@ -1,0 +1,108 @@
+Where  can I download the latest version of  Sterm,pce_general
+What is sterm,pce_general
+What is the current endpoint (Linux server ) in order to use/test the sterm,pce_general
+Whom to Contact for End Point related issues.,pce_general
+How to raise a ticket for Sterm code access,pce_general
+"Where to check the Sterm related issues ,opentasks and enhancements",pce_general
+What are the tools and Technologies used in Sterm_PCE,pce_general
+What are the third party tools/libraries used in Sterm on windows,pce_general
+What are the third party tools/libraries used in Sterm on Linux,pce_general
+what is PCE in Sterm,pce_general
+How to create a package for Sterm PCE for both linux and windows,pce_general
+How to install the sterm and where to find  the user guide in order to use the tool,pce_general
+STerm for endpoint Windows Servers,pce_general
+What are the error code  for subsystem extractors,uid_error
+What are the error codes for wintel os,uid_error
+Why check sum is wrong during the re-validation on URT and ECM?,uid_error
+How to avoid problem of wrong checksum?,uid_error
+What are the levels of errors reported,uid_error
+Level 1 Error,uid_error
+Level 2 Error,uid_error
+Level 3 Error,uid_error
+Level 4 Error,uid_error
+Level 5 Error,uid_error
+Level 6 Error,uid_error
+"Why following error is appearing by Lotus Domino UID extractor: ""The remote server is not a known TCP/IP host. Session AddressBooks property hasn't any ABs"" ?",uid_error
+"Why following error is appearing by Lotus Domino UID extractor: ""NotesException: Password or other security violation for database <database> names.nsf"" ?",uid_error
+"Why Lotus Domino UID extractor producing this ""NotesException: Can't switch IDs on a server"" ?",uid_error
+"Why following errors is appearing: ""You are not authorized to perform that operation"" ?",uid_error
+"Why following error is appearing: ""java.lang.OutOfMemoryError"" ?",uid_error
+"The WAS script executed with return code 0, but nothing produced. Why?",uid_error
+Why ORA-01031: insufficient privileges error appeared for Oracle extractor?,uid_error
+"Why ""Error loading native library:libldapjclnt9.so."" error is appearing?",uid_error
+Tech team used interim fixed version - therefore validation Tool shows that is invalid version.,uid_error
+The TSCM collector error: Login failed for user 'NT AUTHORITY\SYSTEM'. How to resolve?,uid_error
+"Why ""Already exists"" error appears?",uid_error
+What does error “ADMN0022E:Credential insufficient or blank “ means in WAS,uid_error
+what does error port connect is getting timed out means?,uid_error
+"How to resolve error as “WASX7023E: Error creating ""SOAP"" connection to host ""localhost""; exception information: com.ibm.websphere.management.exception.ConnectorNotAvailableException: [SOAPException: faultCode=SOAP-ENV:Client; msg=Unable to find a valid IP for host localhost]” coming while executing WAS script.",uid_error
+When does WAS script throws error as “Cannot connect to profile”,uid_error
+why does error SizeLimit appears while running extractor ?,uid_error
+what are the different system generated TSM error ?,uid_error
+"why does Sybase script failed due to “failing while getting connected to ASE through isql due to ""Adaptive Server requires encryption of the login password on the network"" error? How to resolve it?",uid_error
+UIDEXT stands for ?,uid_general
+Need for UIDEXT,uid_general
+Can these extractors executed automatically ?,uid_general
+Areas covered by UIDEXT,uid_general
+What are the supported  wintel OS ?,uid_general
+What are the supported unix OS ?,uid_general
+How many subsystems are supported by UIDEXT ?,uid_general
+Do we have test environment for UIDEXT ?,uid_general
+Under which account the extractor should be executed ?,uid_general
+How to run the UID script with labelling file?  Which Sub Systems are supporting labelling file?,uid_general
+Where do I find the complete information regarding the UIDEXT ?,uid_general
+What are the languages the extractor scripts is written in ?,uid_general
+Is checksum applicable to both unix and wintel extractors,uid_general
+Why double re-validation is passing: ID's on OS level are selected for re-validation both when OS is re-validated AND when the Subsystem is re-validated?,uid_general
+How to provide the output debug log file to support team?,uid_general
+Supported formats of output ?,uid_general
+What are logging levels used by UIDEXT ?,uid_general
+Why is Global Windows OS Extractor not starting execution ?,uid_general
+When using the /I:<server list> parameter,uid_general
+What are the prerequisites to run the wintel extractor,uid_general
+What is the format of Mef3 file,uid_general
+What is the format of Mef4 file,uid_general
+what is /B parameter ?when it is used?,uid_general
+what is notarealid in mef3 file?,uid_general
+GPI stands for ?,uid_general
+What is the use of -verify parameter in script?,uid_general
+Supported versions of DB2,uid_general
+Privileges needed to run DB2 extractor,uid_general
+How many instances of DB2 supported,uid_general
+DB2 Roles extracted,uid_general
+Supported versions of Exchange,uid_general
+How many instances of Exchange supported,uid_general
+Privileges needed to run director extractor,uid_general
+Supported versions of Citrix,uid_general
+Privileges needed to run citrix extractor,uid_general
+Citrix roles extracted,uid_general
+Supported versions of Informix,uid_general
+Roles of Informix extracted,uid_general
+Supported versions of AFS,uid_general
+Roles of AFS extracted,uid_general
+Under which account the UID extractor should be executed?,uid_general
+What is the right format of the Last Logon field (mef3 #9 field),uid_general
+How to collect the mef3 data from predefined list of Address Book(s) ?,uid_general
+How to check if DMGR is running or not?,uid_general
+how to start DMGR if it is stopped?,uid_general
+How to run serverStatus.sh script?,uid_general
+How does extractor take instance for oracle?,uid_general
+what are the different TSM roles present?,uid_general
+How we can find name of the TSM servers?,uid_general
+What are the different TSM version supported by TSM extractor?,uid_general
+How to find different queue managers name in MQ?,uid_general
+WHAT is the full form of MQ?,uid_general
+What is the output of dspmq command?,uid_general
+How will extractor decide to process which queue manager?,uid_general
+what is the output of dmpmqaut -m <queue manager name> command ?,uid_general
+how extractor will find username in MQ?,uid_general
+How to check temporary queue in MQ?,uid_general
+Do we extract user info for temporary queue in MQ?,uid_general
+How to check whether AIX RADIUS is installed or not?,uid_general
+What is the output of lslpp –l radius.base.rte?,uid_general
+Which user can modify AIX RADIUS server configuration?,uid_general
+How we can find user that can modify AIX RADIUS server configuration?,uid_general
+Where we can find users in checkpoint IPSO?,uid_general
+How to check if checkpoint CSMS is installed or not ?,uid_general
+How we can find users are enabled or not for checkpoint IPSO?,uid_general
+Why double re-validation is passing,uid_general
