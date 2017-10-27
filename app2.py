@@ -95,84 +95,51 @@ def post():
 					if row[1] in temp_intent:
 						continue
 					temp_intent.append(row[1])
-					example_list.append(row[0])	
+					example_list.append(row[0])
+			
+			if len(temp_intent) == 1:
+				example_list.clear()
+				for row in data:
+					if temp_intent[0] == row[1]:
+						example_list.append(row[0])
+						
+			if len(temp_intent) == 2:
+				example_list.clear()
+				for row in data:
+					if temp_intent[0] == row[1] or temp_intent[1] == row[1]:
+						example_list.append(row[0])
+						
+				
 	except:
 		print('No intent found for current query')
 	
-
+	
+	shuffle(example_list)
+	
+	
 	if flag1:
-		if len(example_list) == 1:
-			suggestion1 = """<html><hr><body>
-					<strong>Corresponding queries:</strong><br>
-					<ul>
-					<li>{query1}</li>
-					</ul>
-					<body><html>""".format(query1=example_list[0])
-		if len(example_list) == 2:
-			suggestion1 = """<html><hr><body>
-					<strong>Corresponding queries:</strong><br>
-					<ul>
-					<li>{query1}</li>
-					<li>{query2}</li>
-					</ul>
-					<body><html>""".format(query1=example_list[0],query2=example_list[1])
-		if len(example_list) == 3:
-			suggestion1 = """<html><hr><body>
-					<strong>Corresponding queries:</strong><br>
-					<ul>
-					<li>{query1}</li>
-					<li>{query2}</li>
-					<li>{query3}</li>
-					</ul>
-					<body><html>""".format(query1=example_list[0],query2=example_list[1],query3=example_list[2])
-
-		if len(example_list) == 4:
-			suggestion1 = """<html><hr><body>
-					<strong>Corresponding queries:</strong><br>
-					<ul>
-					<li>{query1}</li>
-					<li>{query2}</li>
-					<li>{query3}</li>
-					<li>{query4}</li>
-					</ul>
-					<body><html>""".format(query1=example_list[0],query2=example_list[1],query3=example_list[2],query4=example_list[3])
-
-		if len(example_list) == 5:
-			suggestion1 = """<html><hr><body>
-					<strong>Corresponding queries:</strong><br>
-					<ul>
-					<li>{query1}</li>
-					<li>{query2}</li>
-					<li>{query3}</li>
-					<li>{query4}</li>
-					<li>{query5}</li>
-					</ul>
-					<body><html>""".format(query1=example_list[0],query2=example_list[1],query3=example_list[2],query4=example_list[3],query5=example_list[4])			
-
-		if len(example_list) == 6:
-			suggestion1 = """<html><hr><body>
-					<strong>Corresponding queries:</strong><br>
-					<ul>
-					<li>{query1}</li>
-					<li>{query2}</li>
-					<li>{query3}</li>
-					<li>{query4}</li>
-					<li>{query5}</li>
-					<li>{query6}</li>
-					</ul>
-					<body><html>""".format(query1=example_list[0],query2=example_list[1],query3=example_list[2],query4=example_list[3],query5=example_list[4],query6=example_list[5])
+		suggestion1 = """<html><hr><body>
+				<strong>Corresponding queries:</strong><br>
+				<ul>
+				<li>{query1}</li>
+				<li>{query2}</li>
+				<li>{query3}</li>
+				</ul>
+				<body><html>""".format(query1=example_list[0],query2=example_list[1],query3=example_list[2])
+					
 	if 'context' in session:
 		session['context'] = json.dumps(response['context'])
 	
 	
+	
 	try:
-		response = response['output']['text'][0] + suggestion1 +script
+		response = response['output']['text'][0] + suggestion1
 	except:
 		response = "Good that you asked us, I will get updated on that very soon and will get back to you."
 	return response
 
 if __name__ == "__main__":
-	port = int(os.environ.get("PORT", 80))
+	port = int(os.environ.get("PORT", 5000))
 	app.run(debug=True, host='0.0.0.0', port=port)
 	
 	
